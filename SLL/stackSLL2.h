@@ -4,17 +4,17 @@
 
 #include "classSLL2.h"
 
-class SLLstack2 {
+class sllStack2 {
 private:
 	SLL2 *s;
 	unsigned long stack_size;
 
 public:
-	SLLstack2() {
+	sllStack2() {
 		s = NULL;
 		stack_size = 0;
 	}
-	~SLLstack2() {
+	~sllStack2() {
 	}
 
 	void push(SLL2 *st);

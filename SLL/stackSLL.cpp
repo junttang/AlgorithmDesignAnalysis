@@ -1,12 +1,12 @@
 #include "stackSLL.h"
 
-void SLLstack::push(SLL *st) {
+void sllStack::push(SLL *st) {
 	st->p = s;
 	s = st;
 	stack_size++;
 }
 
-SLL* SLLstack::pop(void) {
+SLL* sllStack::pop(void) {
 	SLL *p;
 
 	if (empty())
@@ -19,14 +19,14 @@ SLL* SLLstack::pop(void) {
 	return p;
 }
 
-SLL* SLLstack::top(void) {
+SLL* sllStack::top(void) {
 	if (empty())
 		errorExit("Stack is empty(Stop)");
 
 	return s;
 }
 
-bool SLLstack::empty(void) {
+bool sllStack::empty(void) {
 	if (stack_size < 0)
 		errorExit("Stack is corrupted(Sempty)");
 	

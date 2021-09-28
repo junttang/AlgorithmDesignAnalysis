@@ -4,17 +4,17 @@
 
 #include "classSLL.h"
 
-class SLLstack:public SLList {
+class sllStack:public SLList {
 private:
 	SLL *s;
 	unsigned long stack_size;
 
 public:
-	SLLstack() {
+	sllStack() {
 		s = NULL;
 		stack_size = 0;
 	}
-	~SLLstack() {
+	~sllStack() {
 		while (!empty()) {
 			SLL *p = pop();
 			freeSLL(p);

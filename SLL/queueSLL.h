@@ -4,17 +4,17 @@
 
 #include "stackSLL.h"
 
-class SLLqueue:public SLList {
+class sllQueue:public SLList {
 private:
 	SLL *Q, *Q_end;
 	unsigned long queue_size;
 
 public:
-	SLLqueue() {
+	sllQueue() {
 		Q = Q_end = NULL;
 		queue_size = 0;
 	}
-	~SLLqueue() {
+	~sllQueue() {
 		while (!empty()) {
 			SLL *p = deque();
 			freeSLL(p);
