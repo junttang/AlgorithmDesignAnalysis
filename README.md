@@ -1,7 +1,7 @@
 # AlgorithmDesignAnalysis
 Algorithm Design and Analysis in 2021 second semester
 
-This repository contains **the practice codes and assignments codes of Sogang Algorithm Design and Analysis(odd student ID class)** in the second semester in 2021.
+This repository contains **the practice codes and assignments codes of Sogang Algorithm Design and Analysis(odd student ID class)** in the second semester, 2021.
 
 Each assignment/practice is testing students' proper understanding of the algorithms for some NP, NP-Complete, and etc.
 
