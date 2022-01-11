@@ -5,4 +5,6 @@ This repository contains **the practice codes and assignments codes of Sogang Al
 
 Each assignment/practice is testing students' proper understanding of the algorithms for some NP, NP-Complete, and etc.
 
+(I ranked #3 position at the end of the semester in this class.)
+
 * **ALERT : If you, the reader is a student who takes the same course and have to do the same assignments, DO NOT COPY this codes. You can refer to the code to help yourself do the homework efficiently, but do not just copying at all.**
